@@ -7,18 +7,18 @@ public class lab {
 		int m = 0;
 		do {
 		Scanner in = new Scanner(System.in);
-		System.out.println("\n1. switch.\n2. Цикли \n 3. Вихід");
-		System.out.println("Виберіть один з пунктів меню:");
+		System.out.println("\n1. switch.\n2. Р¦РёРєР»Рё \n 3. Р’РёС…С–Рґ");
+		System.out.println("Р’РёР±РµСЂС–С‚СЊ РѕРґРёРЅ Р· РїСѓРЅРєС‚С–РІ РјРµРЅСЋ:");
 		try {
 		m = in.nextInt();
 		switch(m) {
 		case 1: zavd1();break;
 		case 2: zavd2();break;
 	
-		default:System.out.println("Вихід схвалено");
+		default:System.out.println("Р’РёС…С–Рґ СЃС…РІР°Р»РµРЅРѕ");
 		}
 }
-		catch(Exception r) {System.out.println("Помилка вводу!");}
+		catch(Exception r) {System.out.println("РџРѕРјРёР»РєР° РІРІРѕРґСѓ!");}
 }
 		while(m!=3);
 		
@@ -26,19 +26,19 @@ public class lab {
 public static void zavd1() {
 	Scanner in = new Scanner(System.in);
 	try {
-	System.out.println("Введіть номер кольору - ");
+	System.out.println("Р’РІРµРґС–С‚СЊ РЅРѕРјРµСЂ РєРѕР»СЊРѕСЂСѓ - ");
 	int n = in.nextInt();
 	switch(n) {
-	case 1:System.out.print("Це - Червоний");break;
-	case 2:System.out.print("Це - Помаранчивий");break;
-	case 3:System.out.print("Це - Жовтий");break;
-	case 4:System.out.print("Це - Зелений");break;
-	case 5: System.out.print("Це - Блакитний");break;
-	case 6:System.out.print("Це - Синій");break;
-	case 7:System.out.print("Це - Фіолетовий");break;
-	default:System.out.println("Кольору не існує!");
+	case 1:System.out.print("Р¦Рµ - Р§РµСЂРІРѕРЅРёР№");break;
+	case 2:System.out.print("Р¦Рµ - РџРѕРјР°СЂР°РЅС‡РёРІРёР№");break;
+	case 3:System.out.print("Р¦Рµ - Р–РѕРІС‚РёР№");break;
+	case 4:System.out.print("Р¦Рµ - Р—РµР»РµРЅРёР№");break;
+	case 5: System.out.print("Р¦Рµ - Р‘Р»Р°РєРёС‚РЅРёР№");break;
+	case 6:System.out.print("Р¦Рµ - РЎРёРЅС–Р№");break;
+	case 7:System.out.print("Р¦Рµ - Р¤С–РѕР»РµС‚РѕРІРёР№");break;
+	default:System.out.println("РљРѕР»СЊРѕСЂСѓ РЅРµ С–СЃРЅСѓС”!");
 	}}
-	catch(Exception e) {System.out.println("Невірний ввід "+e.toString());}
+	catch(Exception e) {System.out.println("РќРµРІС–СЂРЅРёР№ РІРІС–Рґ "+e.toString());}
 
 }
 public static void zavd2() {
